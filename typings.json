@@ -1,0 +1,19 @@
+{
+  "name": "product-catalog",
+  "version": "1.0.0",
+  "dependencies": {},
+  "main": "typings\\main.d.ts",
+  "ambientDependencies": {
+    "angular": "registry:dt/angular#1.5.0+20161101124950",
+    "angular-mocks": "registry:dt/angular-mocks#1.5.0+20160608104721",
+    "angular-route": "registry:dt/angular-route#1.3.0+20160317120654",
+    "jquery": "registry:dt/jquery#1.10.0+20160929162922",
+    "mocha": "registry:dt/mocha#2.2.5+20161028141524",
+    "require": "registry:dt/require#2.1.20+20160919185614",
+    "ui-grid": "registry:dt/ui-grid#0.0.0+20160816133502"
+  },
+  "resolution": {
+    "main": "typings/main",
+    "browser": "typings/browser"
+  }
+}
