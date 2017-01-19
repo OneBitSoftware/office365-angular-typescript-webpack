@@ -1,0 +1,15 @@
+﻿<div class="o365-container">
+    <h1>Files</h1>
+    <p>This demo shows how to get all your files from OneDrive for Business.</p>
+    <div>
+        <button type='button' class="btn btn-primary" ng-click="ctrl.getFiles()">
+            Get My Files
+        </button>
+    </div>
+    <div>
+        <p> </p>
+        <div ng-repeat="file in ctrl.files">
+            {{name}}
+        </div>
+    </div>
+</div>

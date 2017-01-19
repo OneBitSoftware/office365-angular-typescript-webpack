@@ -1,0 +1,15 @@
+﻿<div class="o365-container">
+    <h1>SharePoint Lists</h1>
+    <p>This demo shows how to get all SharePoint lists in the current site.</p>
+    <div>
+        <button type='button' class="btn btn-primary" ng-click="ctrl.getLists()">
+            Get SharePoint Lists
+        </button>
+    </div>
+    <div>
+        <p> </p>
+        <div ng-repeat="list in ctrl.lists">
+           List: {{ list.title }} Item count: {{list.itemCount}}
+        </div>
+    </div>
+</div>
